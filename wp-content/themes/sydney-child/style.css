@@ -1,0 +1,666 @@
+/*
+ Theme Name:   Helemaal de bom theme
+ Theme URI:    https://www.helemaaldebom.nl/
+ Description:  Helemaal de bom child theme
+ Author:       Bas Romeijn
+ Author URI:   https://www.helemaaldebom.nl/
+ Template:     sydney
+ Version:      1.0.0
+ Tags:         plaats, hier, jouw, tags, gescheiden, door, kommas
+ Text Domain:  sydney-child
+*/
+/* =Eigen CSS hier beneden plaatsen
+-------------------------------------------------------------- */
+/* Button */
+.button-costum {
+  background: #F8A394;
+  font-family: serif;
+  color: white;
+  border: 1px solid #F8A394;
+  border-radius: 200px;
+  padding: 15px;
+  font-size: 18px;
+  position: relative;
+  top: 20px;
+}
+
+.button-costum:hover {
+  border: 1px solid #F8A394;
+  background: transparent;
+  color: #F8A394;
+}
+
+h1, h2 {
+  font-family: serif;
+}
+
+h3, h4, h5, h6, a, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.costum-backgroundColor {
+  background: #F5F2EB;
+}
+
+footer {
+  background: #F5F2EB;
+}
+
+.costum-footer-kolommen h2 {
+  font-family: serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.costum-footer-inner {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 30px 20px;
+}
+
+.costum-footer-kolommen {
+  display: flex;
+  gap: 2%;
+}
+
+.costum-footer-kolommen div {
+  padding: 0px 40px;
+}
+
+.costum-footer-kolommen div a {
+  display: block;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
+}
+
+.costum-footer-kolommen div a:hover {
+  color: #F8A394;
+}
+
+.informatie-footer-c2 {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 600px) {
+  .costum-footer-kolommen {
+    flex-wrap: wrap;
+  }
+  .costum-footer-c1, .costum-footer-c2, .costum-footer-c3 {
+    flex: 25%;
+  }
+  .afbeelding-footer {
+    width: 80%;
+    margin-top: 70px;
+  }
+  .costum-footer-c4 {
+    text-align: center;
+    flex: 100%;
+  }
+}
+@media only screen and (max-width: 858px) and (min-width: 600px) {
+  .costum-footer-c3 {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .costum-footer-kolommen {
+    flex-direction: column;
+  }
+  .costum-footer-kolommen div {
+    margin-bottom: 50px;
+  }
+}
+footer .fa {
+  margin-right: 10px;
+}
+
+.sydney-credits {
+  padding: 20px 40px 0px;
+}
+
+.sydney-credits {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/* Home */
+.slider-home {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-home-inner {
+  padding: 280px 30px;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider-home-inner h2 {
+  color: white;
+  margin: 5px;
+  font-family: serif;
+  font-size: 75px;
+}
+
+.informatie-slider {
+  color: white;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px) {
+  .slider-home-inner {
+    padding: 180px 30px;
+  }
+  .slider-home-inner h2 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slider-home-inner {
+    padding: 130px 30px;
+  }
+  .slider-home-inner h2 {
+    font-size: 35px;
+  }
+  .informatie-slider {
+    font-size: 14px;
+  }
+}
+.informatie-slider {
+  margin-left: 5px;
+}
+
+.usp-home h2 {
+  margin: 0px;
+  flex: 33.33%;
+  text-align: center;
+  padding: 25px 20px;
+  font-family: serif;
+  font-size: 28px;
+}
+
+.usp-home {
+  display: flex;
+}
+
+.USP-1_1, .USP-1_3 {
+  background: #DCD0BA;
+}
+
+.USP-1_2 {
+  background: #E1D6C4;
+}
+
+.home-info-1-inner {
+  display: flex;
+  background-position: 10% bottom;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  height: 850px;
+}
+
+.home-info_1-c1 {
+  background-position: 100% 55px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.home-info-1-inner div {
+  flex: 50%;
+}
+
+.afbeelding-informatie {
+  height: 800px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.home-c1-deel {
+  width: 100%;
+  max-width: 660px;
+  margin-left: auto;
+  height: 850px;
+}
+
+.home-info_1-c1 {
+  height: 100%;
+}
+
+.home-c1-deel {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 40px 40px 20px 140px;
+}
+
+.titel-informatie1_1, .titel-informatie1_2 {
+  font-family: serif;
+}
+
+@media only screen and (max-width: 940px) {
+  .usp-home {
+    flex-direction: column;
+  }
+  .home-info-1-inner {
+    height: 100%;
+    flex-direction: column;
+  }
+  .home-c1-deel {
+    height: 100%;
+    max-width: 100%;
+    padding: 40px;
+  }
+  .afbeelding-informatie {
+    padding: 0px 40px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .home-c1-deel {
+    padding-left: 40px !important;
+  }
+}
+.werkErvaring-inner {
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 150px 30px;
+}
+
+.werkErvaring-inner div {
+  flex: 50%;
+}
+
+.afbeelding-werkervaring_2, .afbeelding-werkervaring_3 {
+  max-width: 280px;
+  width: 100%;
+  position: relative;
+}
+
+.afbeelding-werkervaring_2 {
+  top: 50px;
+  left: 130px;
+}
+
+.afbeelding-werkervaring_3 {
+  top: 50px;
+  right: 50px;
+}
+
+.werkErvaring-c1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 600px;
+}
+
+.afbeelding-1-werkErvaring {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+
+.afbeelding-2-werkErvaring {
+  display: flex;
+  align-items: flex-end;
+}
+
+.werkErvaring-c1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titel-werkervaring_1, .titel-werkervaring_2 {
+  font-family: serif;
+  margin: 5px 0px;
+  font-size: 48px;
+}
+
+.titel-werkervaring_2 {
+  margin-bottom: 20px;
+  color: #F8A394;
+  font-weight: 400;
+  font-size: 54px;
+}
+
+.werkErvaring {
+  padding: 0px 50px;
+}
+
+@media only screen and (max-width: 960px) {
+  .werkErvaring-inner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .werkErvaring-c1 {
+    margin-top: 100px;
+  }
+  .afbeelding-1-werkErvaring, .afbeelding-2-werkErvaring {
+    opacity: 0;
+  }
+  .werkErvaring-inner div {
+    flex: 100%;
+  }
+  .werkErvaring-c1 {
+    background-size: contain;
+    height: 100%;
+    padding: 100px 100px 100px 0px;
+  }
+  .werkErvaring {
+    padding: 0px !important;
+  }
+}
+.titel-repeater-home {
+  font-family: serif;
+}
+
+.aanbod-inner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.aanbod-div {
+  flex: 20%;
+}
+
+.aanbod {
+  background: #E6DFCF;
+  padding: 70px 30px 120px;
+}
+
+.aanbod-div {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  text-align: center;
+}
+
+.afbeelding-repeater-home {
+  max-width: 110px;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.titel-repeater-home {
+  margin-top: 35px;
+  font-weight: 400;
+}
+
+.informatie-repeater-home {
+  margin-bottom: 5px;
+}
+
+.aanbod-div {
+  margin-top: 50px;
+}
+
+.link_rep {
+  color: #F8A394;
+}
+
+.link_rep:hover {
+  color: #F8A394;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 650px) {
+  .aanbod-div {
+    flex: 40%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .aanbod-div {
+    flex: 100%;
+  }
+}
+.afbeelding-overOns {
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 65%;
+  filter: drop-shadow(-20px 20px 0px #998197);
+}
+
+.overOns-inner {
+  display: flex;
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 30px;
+  gap: 5%;
+  align-items: center;
+}
+
+.overOns-c1 {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin-left: 20px;
+}
+
+.overOns-inner div {
+  flex: 50%;
+}
+
+.titel-overOns {
+  font-family: serif;
+  font-size: 60px;
+}
+
+.overOns-c2 p strong {
+  font-family: serif;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 880px) {
+  .overOns-inner {
+    flex-direction: column-reverse;
+  }
+  .overOns-c1 {
+    margin-top: 100px;
+  }
+}
+.image-border {
+  background-image: url("http://localhost/chiwanka/wp-content/uploads/2023/10/Middel-1chiwanka-.png");
+  padding: 90px 0px;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 1900px) {
+  .image-border {
+    background-size: 1900px;
+    padding: 70px 0px;
+  }
+  .image-border-1 {
+    top: 65px !important;
+  }
+  .image-border-2 {
+    bottom: 65px !important;
+  }
+}
+.image-border-1 {
+  top: 80px;
+}
+
+.image-border-2 {
+  bottom: 95px;
+}
+
+.slider-aanbod {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-aanbod-inner {
+  padding: 180px 30px;
+  text-align: center;
+}
+
+.titel-slider-aanbod {
+  color: white;
+  font-family: serif;
+  font-size: 80px;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 600px) {
+  .titel-slider-aanbod {
+    font-size: 65px;
+  }
+  .slider-aanbod-inner {
+    padding: 140px 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .titel-slider-aanbod {
+    font-size: 45px;
+  }
+  .slider-aanbod-inner {
+    padding: 100px 30px;
+  }
+}
+.aanbod-post {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 30px;
+  position: relative;
+  bottom: 40px;
+}
+
+.aanbod-column-post {
+  display: flex;
+  gap: 5%;
+}
+
+.aanbod-c1-post {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aanbod-c2-post {
+  flex: 25%;
+}
+
+.aanbod-innerpost {
+  margin-bottom: 70px;
+}
+
+.aanbod-c1-post, .aanbod-c2-post {
+  background: rgba(225, 214, 196, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.aanbod-c2-post {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa-leaf {
+  font-size: 80px;
+  color: black;
+}
+
+.titel_tarief-aanbod {
+  font-family: serif;
+  font-weight: 300;
+}
+
+.prijs-aanbod {
+  margin-bottom: 0px;
+}
+
+.aanbod-post p {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 850px) {
+  .aanbod-column-post {
+    flex-direction: column;
+  }
+  .aanbod-c2-post {
+    margin-top: 70px;
+  }
+}
+.aanbod-post li {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Kalender */
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-h6--min-medium {
+  color: #998197 !important;
+  font-size: 22px !important;
+  text-transform: capitalize !important;
+}
+
+.tribe-events-calendar-list__event-date-tag-weekday, .tribe-common--breakpoint-medium.tribe-common .tribe-common-h4--min-medium {
+  font-size: 34px !important;
+  text-transform: uppercase !important;
+  color: #998197 !important;
+}
+
+.tribe-events .tribe-events-calendar-list__month-separator:after {
+  background-color: #998197 !important;
+}
+
+.tribe-events .tribe-events-calendar-list-nav {
+  border-top: 1px solid #998197 !important;
+}
+
+.tribe-events-c-small-cta__price {
+  font-size: 28px !important;
+  color: #998197 !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.tribe-events-cost {
+  font-size: 22px !important;
+  color: #998197 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.tribe-event-date-start, .tribe-event-time {
+  font-size: 20px !important;
+  color: #998197;
+  text-transform: capitalize;
+}
+
+.tribe-events-calendar-list__event-venue-title.tribe-common-b2--bold {
+  font-size: 18px !important;
+  color: #998197;
+}
+
+.tribe-events-meta-group, .tribe-events-meta-group .tribe-events-single-section-title {
+  font-size: 18px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.tribe-events-meta-group-venue .tribe-events-single-section-title {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */
